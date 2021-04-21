@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html{
+  width: 100%;
+  height: 100%;
+  background-color: #E3E5E6;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.App{
+  display: flex;
+}
+
+.textArea{
+  width: 100%;
+  padding: 3% 5% 0% 5%;
+  
+}
+
+
+.textArea input,
+.textArea select{
+  margin-top: 6px;
+  width: 80%;
+  height: 4vh;
+  border-radius: 12px;
+  text-decoration: none;
+  padding-left: 20px;
+  outline: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textArea option{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.textArea section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+#note{
+  width: 100%;
+  height: 15vh;
+}
+
+.Line{
+  background-color: black;
+  opacity: 10%;
+  width: 1px;
+  height: 100vh;
+  margin-right: 4%;
+}
+
+.button{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  cursor: pointer;
+  background-color: #77BEC2 ;
+  border-radius: 16px;
+  margin-top: 7%;
+  outline: none;
+  margin-left: 5vw;
+  transition: 300ms;
+  padding:10px 35px 10px 35px;
+  color: white;
+  box-shadow: 0 0 0.9em rgb(150, 148, 148);  
+
+}
+
+.button:hover{
+  transition: 300ms;
+  background-color: #327275 ;
+}
+
+.Bobs{
+  position: fixed;
+  z-index: -1;
+  margin-top: -30%;
+  margin-left: 70%;
+  width: 50vw;
+}
+
+.Notes .Categorias{
+  background-color: #f9f9f9;
+  border-radius: 32px;
+  width: 15vw;
+  height: 14vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 10%;
+  box-shadow: 0 0 0.9em rgb(150, 148, 148);  
+}
+
+.Notes .Categorias h2{
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+.Notes .Categorias h5{
+  color: #327275;
+  text-decoration-line: underline;
+  text-decoration-color: #327275 ;
+  cursor:pointer;
+  transition:100ms;
+
+}
+
+.Notes .Categorias .Change:hover > h5{
+  transition:200ms;
+  margin-left: -260px;
+  opacity: 0%;
+  display: none;
+ }
+
+ .Notes .Categorias .Change{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .Notes .Categorias .Change button{
+    display: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+    background-color: #77BEC2 ;
+    border-radius: 16px;
+    outline: none;
+    transition: 300ms;
+    padding:3px 8px 3px 8px;
+    color: white;
+    box-shadow: 0 0 0.9em rgb(150, 148, 148); 
+    margin-left: 5%;
+ 
+  }
+
+  .Notes .Categorias .Change button:hover{
+    transition: 300ms;
+    background-color: #327275;
+  }
+ 
+ .Notes .Categorias .Change input{
+  display: none;
+  width: 8vw;
+  height: 4vh;
+  border-radius: 12px;
+  text-decoration: none;
+  padding-left: 2px;
+  outline: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: black;
+  padding-left: 10px;
+ }
+ 
+ .Notes .Categorias .Change:hover > input{
+   display: flex;
+ }
+
+ .Notes .Categorias .Change:hover > button{
+   display: flex;
+ }
+
+
+.Notes .HeaderNotes{
+  margin-top: 6vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5vh;
+}
+
+.Notes .title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

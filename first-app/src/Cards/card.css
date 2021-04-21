@@ -1,0 +1,42 @@
+.card{
+    margin:15px;
+    background-color: #f9f9f9;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    border-radius: 24px;
+    box-shadow: 0 0 1em black;  
+    flex-direction: column;
+    align-items: center;
+    height: 15vh;
+
+  }
+  
+  .card .headerCard{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card h4{
+    font-weight: 600;
+    opacity: 70%;
+  }
+
+  .card h3{
+    padding-right: 1vw;
+    padding-left: 2vw;
+
+  }
+
+  .TrashIMG{
+    height: 5vh;
+    cursor: pointer;
+    transition:300ms;
+    padding-right: 1vw;
+  }
+  
+  .TrashIMG:hover{
+    transition:300ms;
+    opacity: 60%;
+  }
